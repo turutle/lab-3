@@ -20,7 +20,7 @@ if __name__ == '__main__':
         k = 1
     
         while math.fabs(a) > EPS:
-            a *= ((1 - x) * k**2) / (k**2 + k*2 + 1)
+            a *= ((1 - x) * k**2) / (k + 1)**2
             S += a
             k += 1
             
