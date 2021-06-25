@@ -20,7 +20,7 @@ if __name__ == '__main__':
     x = float(input("Value of x? "))
     if x == 0:
         print("Illegal value of x", file=sys.stderr)
-        exit(1)
+        exit("Process finished with exit code 1")
         
     a = x
     S, k = a, 1

@@ -23,3 +23,4 @@ if __name__ == '__main__':
         print(n*0.91)
     else:
         print("Ошибка!", file=sys.stderr)
+        exit("Process finished with exit code 1")

@@ -13,7 +13,7 @@ if __name__ == '__main__':
     a = float(input("Value of a? "))
     if a < 0:
         print("Illegal value of a", file=sys.stderr)
-        exit(1)
+        exit("Process finished with exit code 1")
         
     x, eps = 1, 1e-10
     while True:

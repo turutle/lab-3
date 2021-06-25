@@ -14,6 +14,7 @@ if __name__ == '__main__':
     
     if x < 0 or x > 2:
         print("Illegal value of x")
+        exit("Process finished with exit code 1")
     else:
         a = 1 - x
         S = a

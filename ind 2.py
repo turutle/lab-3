@@ -24,4 +24,4 @@ if __name__ == '__main__':
         print("Cреди чисел нет чётных")
     else:
         print("Ошибка!", file=sys.stderr)
-        exit(1)
+        exit("Process finished with exit code 1")
